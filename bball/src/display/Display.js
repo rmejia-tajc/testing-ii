@@ -4,7 +4,7 @@ import Dashboard from "../dashboard/Dashboard.js";
 class Display extends Component {
   state = {
     balls: 0,
-    strikes: 0
+    strikes: 0,
   };
 
   hitHandler = () => {
